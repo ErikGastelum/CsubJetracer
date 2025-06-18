@@ -192,3 +192,28 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# JetRacer project-specific
+*.pth
+*.pt
+*.trt
+*.engine
+*.onnx
+*.h5
+*.pb
+
+# TensorBoard logs
+runs/
+events.out.tfevents.*
+
+# Camera images / videos / logs
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# Datasets and collected tub data
+data/
+tub_*/
+*.csv
