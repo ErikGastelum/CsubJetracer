@@ -52,5 +52,23 @@ Once you are in the Athena jupyterlab you need to upload your training data and 
 git clone https://github.com/ErikGastelum/csubjetracer
 ```
 And going to the notebooks folder and using the modified training jupyter notebooks.
+### To transfer files use
+```
+scp –r /path/to/source_directory <username>@athena.cs.csub.edu:/path/to/target_directory
+
+# Example
+# scp –r jetracer/notebooks/road_following_G egastelum@athena.cs.csub.edu:csubjetracer/notebooks/modified training  
+```
+## Change directory
+**It will not work if you do not do this**
+![image](https://github.com/user-attachments/assets/8978502c-0005-4570-aecc-67aa1f1f82d6)
+
+## Transfer Model
+You can transfer the model using the upload button shown in the picture on your Jetracer. Alternatively you can use
+```
+scp username@athena.cs.csubak.edu:home/username/jetracer/notebooks/road_following_model#.pth home/jetson/jetracer/notebooks
+```
+![Screenshot 2025-06-18 at 14-27-53 interactive_… (2) - JupyterLab](https://github.com/user-attachments/assets/8beabf66-ae39-441d-bbe1-c25b803d979d)
+
 
 Parts of this project are adapted from [jetracer-CollisionAvoidance by chentyra](https://github.com/chentyra/jetracer-CollisionAvoidance) under the MIT License.
