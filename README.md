@@ -46,7 +46,11 @@ http://athena:9001/lab?token=YOUR_UNIQUE_TOKEN
 http://athena.cs.csubak.edu:9001/lab?token=YOUR_UNIQUE_TOKEN
 ```
 Copy and paste the link into your browser to access JupyterLab.
-
-
+# Athena JupyterLab
+Once you are in the Athena jupyterlab you need to upload your training data and training notebook. You can do this by using
+```
+git clone https://github.com/ErikGastelum/csubjetracer
+```
+And going to the notebooks folder and using the modified training jupyter notebooks.
 
 Parts of this project are adapted from [jetracer-CollisionAvoidance by chentyra](https://github.com/chentyra/jetracer-CollisionAvoidance) under the MIT License.
