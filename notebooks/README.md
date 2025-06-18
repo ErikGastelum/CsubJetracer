@@ -8,3 +8,7 @@ Through testing, we found that reverse throttle required a higher initial value 
 - Reverse throttle has been tuned to ensure consistent movement.
 - This version may exhibit more input lag compared to the original teleoperation notebook.
 - Intended for scenarios where precision in reverse is more critical than low-latency response
+
+# Modified Training
+
+The modified training is the necessary notebook to train a road following model, utilize the README on how to train it on the Athena server.
